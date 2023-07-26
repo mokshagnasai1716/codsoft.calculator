@@ -1,0 +1,50 @@
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(92, 118, 205);
+}header{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    
+}
+button:hover{
+    border: 3px solid rgb(205, 92, 92);
+}
+    
+
+.outer{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:200px;
+    height:250px;
+    background-color:rgb(0, 0, 0);
+}
+.display input{
+    width: 170px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.innerbox{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+button{
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.235);
+}
+.cancel,.del{
+    color: aliceblue;
+    background-color: #3697f5;
+}
+.equal{
+    background-color: yellow;
+}
